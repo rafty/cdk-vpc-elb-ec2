@@ -8,7 +8,7 @@ class AlbConstruct(Construct):
             self,
             scope: Construct,
             id: str,
-            vpc: aws_ec2.Vpc  # todo
+            vpc: aws_ec2.Vpc
     ) -> None:
         super().__init__(scope, id)
 
